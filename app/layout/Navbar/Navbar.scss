@@ -1,0 +1,12 @@
+.custom-navbar {
+    .logo-n-place {
+        .place-menu {
+            &::before {
+                content: '';
+                display: block;
+                height: 16px;
+                border-right: 2px solid #F4F2F2;
+            }
+        }
+    }
+}
